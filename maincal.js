@@ -17,7 +17,7 @@ const answer = await inquirer.prompt({
     type: "list",
     name: "operation",
     choices: ["subraction", "addition", "multiplication", "division"],
-    message: "what operation do you want to perform"
+    message: "which operation do you want to perform"
 });
 function finalresult() {
     if (answer.operation == "addition") {
